@@ -34,4 +34,15 @@ We are concerning about multiple components in the system. When we are doing tes
 ## Unit Test for Node JS
  
 ### Test framework selection
-Currently there are multiple test framework available for Javascript testing. One of the consideration of selecting the test framework is that it has the capability of doing both integration test and unit testing. Based on this criteria, I find Jasmine, Mocha + Chai. 
+Currently there are multiple test framework available for Javascript testing. One of the consideration of selecting the test framework is that it has the capability of doing both integration test and unit testing. We are trying to reduce the dependency. Based on this criteria, I find Jasmine, Mocha + Chai. 
+
+We are trying to have as less as dependency. 
+
+**Mocha + Chai**
+Tests will have dependence. It does not clear the status. 
+
+**Jasmine**
+
+
+**Jest**
+running slower than Mocha. Linear problem and Jest will reset the environment for each test. 
